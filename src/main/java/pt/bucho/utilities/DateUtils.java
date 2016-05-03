@@ -7,8 +7,20 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
+/**
+ * Conveniences to transform strings into date objects 
+ *
+ * @deprecated Obsolete class. Use JodaTime instead 
+ */
+@Deprecated
 public class DateUtils {
 	
+	/**
+	 * Returns a date object given a string
+	 * 
+	 * @deprecated Should use JodaTime instead 
+	 */
+	@Deprecated
 	public static Date getDate(String date) {
 		
 		String[] split = date.split("-");
@@ -67,6 +79,12 @@ public class DateUtils {
 		return calendar.getTime();
 	}
 
+	/**
+	 * Returns a ZonedDateTime object given a string
+	 * 
+	 * @deprecated Should use JodaTime instead
+	 */
+	@Deprecated
 	public static ZonedDateTime getCompleteDate(String original) {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss Z").withLocale(Locale.ENGLISH);
 		return ZonedDateTime.parse(original, dtf);

@@ -1,4 +1,4 @@
-package pt.bucho.utilities.test;
+package pt.bucho.utilities;
 
 import java.util.Date;
 import org.junit.Assert;
@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import pt.bucho.utilities.DateUtils;
 
+@SuppressWarnings("deprecation")
 public class GetDateTest {
 	private Date hardDate1;
 	private Date hardDate2;

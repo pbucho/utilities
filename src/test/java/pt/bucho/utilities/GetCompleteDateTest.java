@@ -1,4 +1,4 @@
-package pt.bucho.utilities.test;
+package pt.bucho.utilities;
 
 import java.time.ZonedDateTime;
 
@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import pt.bucho.utilities.DateUtils;
 
+@SuppressWarnings("deprecation")
 public class GetCompleteDateTest {
 	private String originalDate1 = "Sun, 25 Oct 2015 11:15:28 +0000";
 	private String originalDate2 = "Fri, 23 Oct 2015 11:15:28 +0100";
