@@ -1,10 +1,11 @@
-package pt.bucho.utilities;
+package pt.bucho.utilities.date;
 
 import java.util.Date;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import pt.bucho.utilities.DateUtils;
+
+import pt.bucho.utilities.date.DateUtils;
 
 @SuppressWarnings("deprecation")
 public class GetDateTest {

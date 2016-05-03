@@ -1,11 +1,11 @@
-package pt.bucho.utilities;
+package pt.bucho.utilities.date;
 
 import java.time.ZonedDateTime;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import pt.bucho.utilities.DateUtils;
+import pt.bucho.utilities.date.DateUtils;
 
 @SuppressWarnings("deprecation")
 public class GetCompleteDateTest {

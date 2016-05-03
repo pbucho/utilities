@@ -1,4 +1,4 @@
-package pt.bucho.utilities;
+package pt.bucho.utilities.date;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
