@@ -177,7 +177,7 @@ public enum Municipality {
 	MEALHADA(District.AVEIRO),
 	MEDA(District.GUARDA),
 	MELGACO(District.VIANA_DO_CASTELO),
-	MÉRTOLA(District.BEJA),
+	MERTOLA(District.BEJA),
 	MESAO_FRIO(District.VILA_REAL),
 	MIRA(District.COIMBRA),
 	MIRANDA_DO_CORVO(District.COIMBRA),
