@@ -11,4 +11,9 @@
 			<version>4.11</version>
 		</dependency>
 	</dependencies>
+	<scm>
+		<url>https://github.com/pbucho/utilities</url>
+		<developerConnection>scm:git:git@github.com:pbucho/utilities.git</developerConnection>
+		<connection>scm:git:git://github.com/pbucho/utilities.git</connection>
+	</scm>
 </project>
